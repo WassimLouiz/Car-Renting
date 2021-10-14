@@ -1,0 +1,120 @@
+
+.container-contact {
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: -70px;
+}
+div {
+    display: block;
+}
+
+.row-contact {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 0.39);
+    border-radius: 3px 3px 3px 3px;
+}
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 20px;
+    padding-left: 20px;
+    
+}
+
+a, .btn {
+    text-decoration: none !important;
+    outline: none !important;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+p {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 34px;
+}
+
+.Follow h1 {
+    float: left;
+    padding: 10px 28px;
+    font-size: 20px;
+    font-weight: 400;
+}
+h1{
+    letter-spacing: 0;
+    font-weight: normal;
+    position: relative;
+    font-family: inherit;
+    padding: 0 0 10px 0;
+    line-height: normal;
+}
+.Follow span {
+    color: white;
+    font-size: 18px;
+    line-height: 32px;
+    display: block;
+   
+}
+.footer {
+    background-color: transparent;  
+}
+.footer .Subscribe {
+    padding: 10px 30px;
+    border: #0e0c0c solid 1px;
+    background: #ee580f;
+    color: #fff;
+    float: right;
+    border-radius: 30px;
+
+}
+button {
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.footer .Newsletter {
+    padding: 26px 26px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    border: #fff solid 1px;
+    width: 100%;
+}
+.textarea {
+    color: #655f5f !important;
+    width: 100%;
+    border: #b1b0b0 solid 1px;
+    height: 100px;
+}
+textarea {
+    overflow: auto;
+}
+
+.footer .Follow h1 {
+    color: #fff;
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-width: 1px;
+    display: inline-block;
+    
+}
+.footer span {
+    font-size: 20px;
+    display: block;
+    color: #fff;
+}
+
+@media screen and (max-width: 960px) {
+    .footer {
+      display: none;
+    }
+}
