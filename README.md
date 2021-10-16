@@ -1,3 +1,8 @@
+This project is a car-renting web site where you can research for a car to rent and then filter the results.
+You can find all the cars ready for rent with the pictures as well as all the informations about the car. 
+This website facilitate the research process as well as the communication with the renter.
+This project is a one page website created with rectJS and firebase.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
